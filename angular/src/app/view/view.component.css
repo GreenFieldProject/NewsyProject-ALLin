@@ -1,0 +1,7 @@
+/* @import url(https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css); */
+ngb-carousel{
+margin : 0 auto;
+max-width :1000px;
+text-align: center;
+background-color: balck;
+}

@@ -1,0 +1,38 @@
+
+<app-header></app-header>
+<!-- <div class="background"> -->
+<div class="background" style ="margin-top: 100px;">
+<br>
+<!-- User Info -->
+<div id = "info" class="container">
+  <p >  <img src="../../assets/images/profile-dummy-2x.png" id="img"> Username:  {{data.username}}</p><br>
+  <p id="email" >Email:  {{data.email}}</p>
+  <br><br>
+
+<!-- Posts Info -->
+<!-- loop on this div -->
+<div *ngFor="let element of data.posts"  class="container">
+<div class="row" id="move">
+  <div class="col-md-11">
+    <div class="card mb-11 shadow-sm" style="background-color: rgba(255, 255,255, 0.6);">
+      <br><h4 id="name">{{data.username}}</h4>
+      <h6 id="date">{{element.date}}</h6><br>
+      
+      <div class="card-body">
+        <p style = "padding-left: 20px;"class="card-text">{{element.description}}</p><br>
+        <img [src]="element.url" style="margin-left:240px ;"/>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="btn-group">
+            <button type="button" class="btn btn-dark" style="margin:5px; " id="delete" [class]= "className(element.id)" (click) = "delete(element.id )" (click)=" refresh()">delete</button>
+          </div>
+          <h5 id="heart">{{element.likes}} </h5>
+          <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-suit-heart-fill" fill="palevioletred" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br><br>
+</div>

@@ -1,0 +1,125 @@
+.background {
+  /* background-image: url('../../assets/images/pexels-brotin-biswas-518543.jpg'); */
+  /* background-color: black; */
+  background-attachment: fixed;
+  color:black;
+  font-weight: bold;
+  background-position: center;
+ background-repeat: repeat;
+ background-size: cover;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-style: oblique;
+}
+#move {
+ margin-left: 70px;
+}
+.col-centered {
+ /* float: none; */
+ margin-right: 200px;
+ margin-left: 200px;
+}
+#border {
+background-color:black;
+background-size: cover;
+color: white;
+/* font-family: "Lucida Console", Courier, monospace; */
+/* display: block; */
+border-bottom: 4px solid rgb(231, 202, 202);
+border-left: 6px solid black;
+border-right: 6px solid black;
+border-top: 6px solid black;
+/* border-width: 30px; */
+}
+.click1 {
+ color: black;
+}
+/* .border {
+       text-align: center;
+       color:black;
+       display: flex;
+       font-family: "Lucida Console", Courier, monospace;
+       font: bold;
+       font-size: large;
+       border-radius: 2px;
+        background-color: white;
+       padding: 50px;
+       margin-top:100px;
+       margin-left:300px;
+       margin-right: 300px;
+       box-shadow: black;
+      position: center;
+} */
+.div1 {
+ margin: center;
+}
+#img {
+  margin-top: -1%;
+ margin-left: 180px;
+ height: 100px;
+ width: 100px;
+}
+#email {
+  margin-top: -55px;
+  margin-left: 290px
+}
+#date {
+  margin-left: 850px;
+  margin-top: -35px;
+}
+#name {
+  margin-left: 20px;
+  font-weight: bold;
+}
+#like {
+  background-color: black;
+}
+#post {
+  background-color:black;
+  color: white;
+}
+#heart {
+  margin-left: 720px;
+  font-weight: bold;
+}
+.info {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+  .filter {
+    margin-bottom:-50px;
+  }
+  .select {
+   margin-left: 1350px; 
+   margin-top: -35px;
+  
+  }
+  .option {
+    background-color: black;
+    color: white;
+  }
+  .right {
+    margin-left: 550px;
+    margin-top: 30px;
+  }
+  .sel {
+    background-color: black;
+    color: white;
+  }
+  #imagee {
+    margin-right: -200px;
+  }
+  #inp {
+    margin-left: 20px;
+    margin-top: -30px;
+    color:white;
+    background-color: black;
+  }
+
+  #click1, #click2 {
+    background-color: black;
+   }
+
+
+

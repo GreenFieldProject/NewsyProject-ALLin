@@ -1,0 +1,70 @@
+.background {
+  /* background-image: url('../../assets/images/pexels-brotin-biswas-518543.jpg');
+  background-color: black;  */
+  background-attachment: fixed;
+  color:black;
+  font-weight: bold;
+  background-position: center;
+ background-repeat: repeat;
+ background-size: cover;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-style: oblique;
+}
+  #move {
+   margin-left: 70px;
+  }
+  .col-centered {
+   /* float: none; */
+   margin-right: 200px;
+   margin-left: 200px;
+  }
+  #border {
+  background-color:black;
+  background-size: cover;
+  color: white;
+  /* font-family: "Lucida Console", Courier, monospace; */
+  /* display: block; */
+  border-bottom: 4px solid rgb(231, 202, 202);
+  border-left: 6px solid black;
+  border-right: 6px solid black;
+  border-top: 6px solid black;
+  /* border-width: 30px; */
+  }
+  .click1 {
+   color: black;
+  }
+  #img {
+    margin-top: -1%;
+   margin-left: 180px;
+   height: 100px;
+   width: 100px;
+  }
+  #email {
+    margin-top: -55px;
+    margin-left: 290px
+  }
+  #date {
+    margin-left: 850px;
+    margin-top: -35px;
+  }
+  #name {
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  #like {
+    background-color: black;
+  }
+  #delete {
+    background-color: black;
+  }
+  #heart {
+    margin-left: 720px;
+    font-weight: bold;
+  }
+  .info {
+    padding-left: 20px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+  }
+  
