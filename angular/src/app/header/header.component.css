@@ -1,0 +1,14 @@
+#signout {
+    margin-left: 1000px;
+    color: white;
+    font-size: 15px;
+}
+.nav {
+    background-color: black;
+}
+#logo {
+    height: 80px;
+    width: 100px;
+    margin-left: 50%;
+    margin-top: 10%;
+}
