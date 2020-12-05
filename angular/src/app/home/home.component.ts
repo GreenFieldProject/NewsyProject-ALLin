@@ -65,8 +65,8 @@ selectFile(event:any){
 likeButton(id:any) {
   this.dataService.sendPostRequest({ "id" :id},'likes', this.headers).subscribe(
 res => {
-  // console.log('jjjj')
-  this.refresh()
+ console.log('jjjj')
+  setTimeout(()=>{this.refresh()}, 400);
  },err=>{
    console.log('yalahhhwii')
    }

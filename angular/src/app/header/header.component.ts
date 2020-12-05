@@ -12,12 +12,8 @@ export class HeaderComponent implements OnInit {
     this.router.navigate([`${pageName}`]);
   }
   redirect(route:string){
-    if(localStorage.getItem("user-token")){
-    this.goToPage(route)}
-    else {
-      alert("you are not authorized , please log in first ")
-      this.goToPage("login")
-    }
+    
+    this.goToPage(route)
   }
   logout(): boolean {
     console.log("loged out!")
