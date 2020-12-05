@@ -1,7 +1,7 @@
 const { string } = require('@hapi/joi');
 const { data, contains } = require('jquery');
 var db = require('../db/index.js');
-var counter = 0;
+var counter = 150;
 //Our Controller methods
 
 exports.addingPost = function(req, res) {
@@ -274,16 +274,26 @@ exports.like = function (req, res) {
            likes=array[i].likes
              stringg=likes.toString()
             
-          break;
-          }    
-        }
-    }
-    //  console.log(array);
-        db.User.updateOne({_id:user_id}, {$set: {posts:array}}, (err,data)=>{
+             //  console.log(array);
+        db.User.updateOne({_id:data[j]._id}, {$set: {posts:array}}, (err,data)=>{
             if (err) console.log("errr in updatemany in like");
             
           });
            res.send(stringg)
+           } 
+                
+        }}
       })
+     
+          
+        
+    
+    // //  console.log(array);
+    //     db.User.updateOne({_id:user_id}, {$set: {posts:array}}, (err,data)=>{
+    //         if (err) console.log("errr in updatemany in like");
+            
+    //       });
+    //        res.send(stringg)
+    //   })
      
 }
