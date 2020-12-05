@@ -7,8 +7,8 @@
 
 ## How to get started 
 >npm install
->npm run server-dev
->ng serve --open
+>npm run server-dev in server directory 
+>ng serve --open in angular directory
 
 ## Teck Stack
 > we are using MEAN stack:
