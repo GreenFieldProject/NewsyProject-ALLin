@@ -23,11 +23,11 @@
 
 ## Features:
 
-> Account for each user with authentication and authorizaiton  
-> share thoughts , new , cooking tips , beauty tips , bedtime stories for children 
-> delete the posts that you share 
-> read other users posts 
-> filter posts by category 
-> like other peoples  posts if you want to 
-> save the post that you want to keep in your favorites 
-> unsave post from favorites 
+> Account for each user with authentication and authorizaiton. 
+> Share thoughts, news, cooking tips, beauty tips and bedtime stories for children.
+> Delete the posts that you share. 
+> See other users posts. 
+> Filter posts by category.
+> Like other users posts.
+> Save the post that you want to keep in your favorites. 
+> Unsave post from favorites.
