@@ -14,7 +14,7 @@
 
 ## Stack
 
-> we are using MEAN stack:
+> MEAN stack:
 - mongoDB - Atlas
 - express
 - Angular
